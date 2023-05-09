@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - checkout
-      - run: python tests.py
+      - run: python test.py
 
 workflows:
   build_and_test:
